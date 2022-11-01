@@ -184,8 +184,6 @@ align-items: center;
     color: var(--main-text-color);
 }
 
-
-
 /*Main*/
 
 /*hero*/
@@ -216,9 +214,6 @@ align-items: center;
     margin:0 auto;
     margin-bottom: 30px;
     
-    
-    
-    
     font-family: var(--main-font);
     font-weight: 900;
     font-size: 44px;
@@ -235,7 +230,6 @@ align-items: center;
     padding-bottom: 10px;
     padding-left: 32px;
     
-
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 16px;
@@ -250,8 +244,7 @@ align-items: center;
     border: none;
 }
 
-
-/*description*/
+ /*description*/
 
 .description{
     padding-top: 94px;
@@ -260,7 +253,6 @@ align-items: center;
 
 .list-item{
     display: flex;
-
 
 }
 
