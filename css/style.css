@@ -112,6 +112,23 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-self: start;
+    flex-direction: row-reverse;
+    color: var(--main-text-color);
+    
+}
+
+
+.mail-phone{
+    fill: currentColor;
+}
+
+
+.mail-phone{
+    margin-right: 10px;
+}
+
+.mail-phone:not(:first-child){
+    margin-left: 30px;
 }
 
 .header-list{
@@ -121,6 +138,9 @@ align-items: center;
 
 }
 
+.header-details:not(:last-child) {
+    margin-right: 50px;
+}
 
 .header-item{
     display: block;
@@ -132,46 +152,22 @@ align-items: center;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-titlet-color);
-    
 }
 
-.mail-phone{
-    margin-right: 10px;
-    color: #757575;
-}
-
-.mail-phone{
-    fill: currentColor;
-}
-
-.header-details:not(:last-child){
-    margin-right: 50px;
-}
 
 .header-item:hover,
 .header-item:focus,
 .header-contact:hover,
-.header-contact:focus {
+.header-contact:focus,
+.header-details:hover,
+.header-details:focus{
     color: var(--main-accent-color);
 }
-   
-
-.header-item:hover,
-.header-item:focus {
-    color: var(--main-accent-color);
-
-}
-.current{
-    color: var(--main-accent-color);
-}
-
 
 .header-connection{
     display: flex;
     align-items: center;
     margin-left: auto;
-   
-
 }
 .header-contact{
     display: block;
@@ -495,6 +491,11 @@ footer{
     padding-bottom: 60px;
 }
 
+.main-footer{
+    display: flex;
+    align-items: baseline;
+}
+
 .footer-logo{
     display: flex;
     align-items: center;
@@ -555,10 +556,12 @@ footer{
     align-content: center;
 }
 
+.join-footer{
+    margin-top: 72px;
+    margin-left: 156px;
+}
 
 .join{
-    
-
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14px;
@@ -568,6 +571,48 @@ footer{
     color: var(--main-background);
 }
 
+.soc-main{
+    display: flex;
+}
+
+.social-networks {
+    fill: ; ;
+}
+    
+    
+
+.soc-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+    
+}
+
+.soc-list:not(:last-child){
+    margin-right: 10px;
+}
+
+.social-networks{
+    fill: currentColor;
+}
+
+.soc-list:hover,
+.soc-list:focus{
+    background-color: var(--main-accent-color);
+  
+}
+
+.soc-list{
+    cursor: pointer;
+}
 
  /*Portfolio*/
 
@@ -652,10 +697,14 @@ footer{
     margin-bottom: 0px;
 }
 
+.groupa:hover,
+.groupa:focus{
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .services-title{
     margin-bottom: 4px;
-
-
 
     font-weight: 700;
     font-size: 18px;
