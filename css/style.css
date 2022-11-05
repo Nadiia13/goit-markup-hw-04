@@ -120,6 +120,7 @@ align-items: center;
 .mail-phone{
     fill: currentColor;
     margin-right: 10px;
+    
 }
 
 
@@ -168,8 +169,10 @@ align-items: center;
 }
 .header-contact{
     display: block;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
+    
 
     font-weight: 500;
     line-height: 16px;
@@ -555,6 +558,7 @@ footer{
 
 .soc-main{
     display: flex;
+    margin-top: 20px;
 }
 
    
@@ -564,9 +568,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
-    
-    
 
     width: 44px;
     height: 44px;
@@ -680,7 +681,6 @@ footer{
 
 .groupa:hover,
 .groupa:focus{
-    border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
