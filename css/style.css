@@ -168,7 +168,7 @@ align-items: center;
     margin-left: auto;
 }
 .header-contact{
-    display: block;
+    display: flex;
     align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
